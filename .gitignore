@@ -1,0 +1,17 @@
+# Ignore all JSON files in data directories
+data/raw/*.json
+data/processed/*.json
+data/plots/*.png
+
+# Ignore environment variable file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore VSCode settings
+.vscode/
