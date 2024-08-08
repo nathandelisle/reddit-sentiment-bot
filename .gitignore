@@ -1,6 +1,8 @@
 # Ignore all JSON files in data directories
 data/raw/*.json
 data/processed/*.json
+
+# Ignore PNG files in the plots directory
 data/plots/*.png
 
 # Ignore environment variable file
