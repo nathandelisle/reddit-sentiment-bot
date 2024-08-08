@@ -1,19 +1,6 @@
-# Ignore all JSON files in data directories
-data/raw/*.json
-data/processed/*.json
-
-# Ignore PNG files in the plots directory
-data/plots/*.png
-
-# Ignore environment variable file
 .env
-
-# Ignore Python cache files
+/src/data/plots/*
+/src/data/processed/*
+/src/data/raw/*
 __pycache__/
 *.py[cod]
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Ignore VSCode settings
-.vscode/
